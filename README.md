@@ -41,16 +41,6 @@ Agent: Here are the important parameters from config.yaml:
 - Logging: WARNING level, logs rotate every 50MB
 - Safety: watchdog enabled, max 3 retries, fail-safe mode set to SHUTDOWN
 
-## Project structure
-
-my-agent/
-├── server.py          # MCP server exposing the read_file tool
-├── client.py          # Connects the LLM to the MCP server
-├── test_data/
-│   └── config.yaml    # Test file
-├── requirements.txt
-└── README.md
-
 ## Troubleshooting
 
 ollama: command not found → Ollama is not installed. Download at https://ollama.com
